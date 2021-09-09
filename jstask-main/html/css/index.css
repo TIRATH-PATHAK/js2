@@ -1,0 +1,74 @@
+
+/* Global css */
+
+.wrapper{
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+ 
+.butns button{
+    padding: 1% 3% 1% 9%;
+    background-color: olivedrab;
+}
+
+.iconsadd{
+    padding-left: 66px;
+}
+
+
+.texts{
+    width: 43.5%;
+    /*  padding-bottom: 2%; */
+    margin-bottom: 1%;
+    background-color: lightgreen;
+
+    transition: 0.5s ease-in-out;
+    /* overflow-y: auto; */
+}
+
+/* #one{
+    height: 150px;
+}
+
+.drop #one{
+    height: 0px;
+} */
+
+
+/* .drop .texts{
+    height: 150px;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.close .texts{
+    height: 0px;
+} */
+
+
+/* .iconssub{
+    display: none;
+} */
+
+
+.hide{
+    display: none;
+}
+
+.button::after{
+    content: '\02795';
+    font-size: 15px;
+   
+    margin-left: 50px;
+    
+}
+button:checked + .button::after {
+    content: '\02796';
+}
