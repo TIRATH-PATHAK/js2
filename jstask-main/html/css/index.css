@@ -58,17 +58,21 @@ p{
 } */
 
 
+
+
 .hide{
     display: none;
 }
 
 .button::after{
-    content: '\02795';
+   
+    content: '\2796';
     font-size: 15px;
    
     margin-left: 50px;
     
 }
-button:checked + .button::after {
-    content: '\02796';
+.active::after{
+    content: '\02795';  
 }
+
